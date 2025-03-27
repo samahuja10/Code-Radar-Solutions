@@ -5,7 +5,7 @@ int main(){
     if (a>b && a>c) printf("%d",a);
     else if (b>a && b>c) printf("%d",b);
     else if (c>a && c>b) printf("%d",c);
-    else print("All are equal");
+    else printf("All are equal");
     return 0;
     
 }
